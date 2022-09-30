@@ -1,0 +1,24 @@
+.donas__imagenes__menu{
+    @extend .tamaño;
+    border-radius: 40%;
+    margin-top: 10px;
+
+}
+
+.donas__div__menu{
+    width: 100%;
+    background-color: #a7ffeb;
+    border-radius:40px;
+    box-shadow: #000 10px 15px 8px 2px;
+    .donas__titulo{
+        color: black;
+        text-align: center;
+
+    }
+    .donas__parrafo{
+        font-size: 1rem;
+        color:black ;
+        padding: 5px;
+        text-align: center;
+    }
+}

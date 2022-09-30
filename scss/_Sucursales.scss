@@ -1,0 +1,47 @@
+#titulo{
+    text-align: center;
+    text-decoration:underline
+}
+.donas__imagenes__local{
+    width: 50%;
+    height: 50%;
+    background-color: #a7ffeb;
+    border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    box-shadow: #000 10px 15px 8px 2px;
+    .donas__titulo{
+        color: black;
+        text-align: center;
+    }
+}
+.donas__div__local{
+    width: 50%;
+    background-color: #a7ffeb;
+    border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #000 10px 15px 8px 2px;
+     .donas__titulo{
+        color: black;
+        text-align: center;
+     }
+}
+.donas__parrafo{
+    font-size: 1rem;
+    color:black ;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.map{
+    width: 40%;  
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

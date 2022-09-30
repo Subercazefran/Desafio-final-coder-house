@@ -1,0 +1,131 @@
+body{
+    background-color: #ff80ab;
+}
+header{
+    background-color: #c94f7c;
+}
+main{
+    background-color:#ff80ab;
+    .logo__donaz{
+        width: 30%;
+        height: 30%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .donas{
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "donas__carta1 donas__carta2"
+                             "donas__carta3 donas__carta4";
+        grid-gap: 5px;
+        margin-top: 5px;
+        border-radius: 10px;
+        justify-items:center;
+        .carta{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            width: 80%;
+        }
+    }
+    .donas__imagenes{
+        @extend .tamaño;
+        box-shadow: #000 10px 15px 8px 2px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+
+    .donas__div{
+        width: 100%;
+        background-color: #a7ffeb;
+        border-radius: 5px;
+        box-shadow: #000 10px 15px 8px 2px;
+        .donas__titulo{
+            color: black;
+            text-align: center;
+
+        }
+    }
+    .donas__parrafo{
+        font-size: 1rem;
+        color:black ;
+        padding: 5px;
+        text-align: center;
+    }
+    .donas__carta1{
+      grid-area:donas__carta1 ;
+    }
+    .donas__carta2{
+      grid-area:donas__carta2 ;
+    }
+    
+    .donas__carta3{
+     grid-area:donas__carta3 ;
+    }
+    .donas__carta4{
+      grid-area:donas__carta4 ;
+     }
+    
+
+}  
+
+.footer{
+    width: 100%;
+    color:black;
+    background-color: #11EDE2;
+    .footer-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:repeat(3,1fr) ;
+        grid-gap: 50px;
+        padding: 45px 0px;
+        margin-top: 20px;
+        .box figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box h2{
+            color: black;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        .box p{
+            color:black;
+            margin-bottom: 10px;
+        }
+        .red-social{
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            margin-right: 10px;
+            text-align: center;
+            align-items: center;
+        }
+     }    
+    .grupo-2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }    
+}
+
+
+
+.tamaño{
+    width: 100%;
+    height: 100%;
+}
+
